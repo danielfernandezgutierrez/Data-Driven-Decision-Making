@@ -58,3 +58,31 @@ La función `crear_grafico(tipo, df)` permite al usuario seleccionar el tipo de 
 
 ### 4. Función Principal
 La función `principal()` carga los datos y gestiona la interfaz del usuario, permitiendo la selección del archivo de datos, el tipo de análisis a realizar y la generación de gráficos interactivos.
+
+
+# Cómo Ejecutar el Proyecto
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/danielfernandezgutierrez/Data-Driven-Decision-Making
+   ```
+
+2. Accede al directorio del proyecto:
+   ```bash
+   cd Data-Driven-Decision-Making
+   ```
+
+3. Ejecuta el archivo de Streamlit:
+   ```bash
+   streamlit run dashboard3.py
+   ```
+
+4. Accede al dashboard a través de tu navegador web. El proyecto se ejecutará en localhost:8501.
+
+# Funcionalidades de la Interfaz
+
+- **Cargar Datos**: Puedes cargar un archivo Excel de órdenes de trabajo.
+- **Seleccionar el Tipo de Gráfico**: El usuario puede elegir entre diferentes tipos de gráficos para analizar los datos.
+- **Análisis Exploratorio**: Proporciona información estadística y la distribución de los datos.
+- **Dashboard Personalizado**: Crea dashboards personalizados con las métricas que elijas.
+
